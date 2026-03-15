@@ -1,0 +1,76 @@
+{
+  "all_features": [
+    "child_age_months",
+    "child_sex",
+    "mother_age",
+    "mother_education_level",
+    "mother_years_education",
+    "mother_currently_working",
+    "marital_status",
+    "religion",
+    "wealth_quintile",
+    "urban_rural",
+    "county",
+    "drinking_water_source",
+    "toilet_facility",
+    "has_electricity",
+    "cooking_fuel",
+    "household_members"
+  ],
+  "demographic": [
+    "child_age_months",
+    "child_sex",
+    "mother_age",
+    "mother_education_level",
+    "mother_years_education",
+    "mother_currently_working",
+    "marital_status"
+  ],
+  "socioeconomic": [
+    "wealth_quintile",
+    "urban_rural",
+    "religion"
+  ],
+  "household": [
+    "household_members",
+    "has_electricity",
+    "drinking_water_source",
+    "toilet_facility",
+    "cooking_fuel"
+  ],
+  "targets": [
+    "ecd_delay_composite",
+    "physical_delay",
+    "language_delay",
+    "literacy_delay",
+    "socio_emotional_delay"
+  ],
+  "ecd_items": [
+    "phys_walk_uneven_surface",
+    "phys_jump_two_feet",
+    "phys_dress_self",
+    "phys_buttons",
+    "lang_words_10plus",
+    "lang_sentence_3plus",
+    "lang_sentence_5plus",
+    "lang_use_pronouns",
+    "lang_name_objects",
+    "lit_letters_5plus",
+    "lit_write_name",
+    "lit_numbers_1_5",
+    "lit_count_3_objects",
+    "lit_count_10_objects",
+    "soc_independent_activity",
+    "soc_name_familiar_people",
+    "soc_help_others",
+    "soc_get_along_children",
+    "soc_often_sad",
+    "soc_aggressive_behavior"
+  ],
+  "age_range": "36-59 months",
+  "unicef_thresholds": {
+    "36-41": 11,
+    "42-47": 13,
+    "48-59": 15
+  }
+}

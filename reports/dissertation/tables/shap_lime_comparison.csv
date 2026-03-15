@@ -1,0 +1,11 @@
+SHAP_Top10,LIME_Top10
+mother_years_education,47.00 < child_age_months <= 53.00
+county,2.00 < wealth_quintile <= 3.00
+wealth_quintile,child_sex <= 0.00
+child_age_months,0.00 < mother_currently_working <= 1.00
+child_sex,household_members > 7.00
+toilet_facility,23.00 < county <= 36.00
+mother_age,0.00 < has_electricity <= 1.00
+drinking_water_source,6.00 < cooking_fuel <= 10.00
+mother_education_level,1.00 < mother_education_level <= 2.00
+household_members,marital_status <= 2.00

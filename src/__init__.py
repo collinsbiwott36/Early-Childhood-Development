@@ -1,0 +1,4 @@
+"""
+KDHS ECD Project - Source Package
+"""
+__version__ = '1.0.0'

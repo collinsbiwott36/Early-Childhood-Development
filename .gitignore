@@ -1,0 +1,19 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+
+# Large assets (keep out of git)
+data/raw/*
+data/interim/*
+data/processed/*
+data/outputs/*
+models/*
+reports/figures/*
+reports/tables/*
+reports/tuning/*
+
+# Logs
+logs/*

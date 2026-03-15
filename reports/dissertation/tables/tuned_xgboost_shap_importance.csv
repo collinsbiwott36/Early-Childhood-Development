@@ -1,0 +1,17 @@
+feature,mean_abs_shap
+mother_years_education,0.4016188
+county,0.31181306
+wealth_quintile,0.30221075
+child_age_months,0.2886865
+child_sex,0.119055346
+toilet_facility,0.10888319
+mother_age,0.097496554
+drinking_water_source,0.08688405
+mother_education_level,0.08461026
+household_members,0.07150005
+mother_currently_working,0.07138947
+religion,0.05120199
+has_electricity,0.047334887
+cooking_fuel,0.040004548
+marital_status,0.02593439
+urban_rural,0.015116967

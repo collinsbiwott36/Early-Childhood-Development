@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\caption{Machine Learning Model Performance Comparison (Test Set, N = 720)}
+\label{tab:model-comparison}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model} & \textbf{Type} & \textbf{ROC-AUC} & \textbf{F1-Score} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} \\
+\midrule
+\textbf{Stacking (LR Meta)} & \textbf{Ensemble} & 0.7699 & 0.6958 & 0.7097 & 0.7199 & 0.6732 \\
+\textbf{Random Forest} & Individual & 0.7690 & 0.6969 & 0.7125 & 0.7256 & 0.6704 \\
+\textbf{Bagging (RF Base)} & \textbf{Ensemble} & 0.7677 & 0.6920 & 0.7069 & 0.7182 & 0.6676 \\
+\textbf{Voting (Soft)} & \textbf{Ensemble} & 0.7651 & 0.6863 & 0.7042 & 0.7191 & 0.6563 \\
+\textbf{AdaBoost} & \textbf{Ensemble} & 0.7615 & 0.6895 & 0.7097 & 0.7296 & 0.6535 \\
+\textbf{Extra Trees} & \textbf{Ensemble} & 0.7611 & 0.6899 & 0.7028 & 0.7104 & 0.6704 \\
+\textbf{XGBoost} & Individual & 0.7535 & 0.6696 & 0.6875 & 0.6994 & 0.6423 \\
+\textbf{LightGBM} & Individual & 0.7497 & 0.6804 & 0.6972 & 0.7095 & 0.6535 \\
+\textbf{Stacking (XGB Meta)} & \textbf{Ensemble} & 0.7455 & 0.6786 & 0.7014 & 0.7229 & 0.6394 \\
+\textbf{Gradient Boosting} & Individual & 0.7437 & 0.6823 & 0.6986 & 0.7104 & 0.6563 \\
+\textbf{Logistic Regression} & Individual & 0.7140 & 0.6594 & 0.6514 & 0.6361 & 0.6845 \\
+\textbf{Voting (Hard)} & \textbf{Ensemble} & 0.7064 & 0.6929 & 0.7069 & 0.7169 & 0.6704 \\
+\bottomrule
+\end{tabular}
+\smallskip\\
+\textit{Note:} Models ranked by ROC-AUC. Ensemble models highlighted in \textbf{bold}.
+\end{table}

@@ -1,0 +1,17 @@
+feature,feature_value,shap_value
+county,45.0,-0.6638134
+mother_years_education,0.0,0.4705177
+child_age_months,37.0,-0.449484
+wealth_quintile,0.0,0.3652833
+child_sex,0.0,-0.25066707
+mother_education_level,1.0,0.14746366
+toilet_facility,10.0,-0.13025212
+mother_age,34.0,0.12605743
+cooking_fuel,10.0,0.071679115
+drinking_water_source,2.0,-0.0529262
+urban_rural,1.0,-0.03697588
+religion,4.0,0.03584348
+has_electricity,1.0,0.030235248
+mother_currently_working,0.0,0.027911212
+household_members,11.0,0.022090293
+marital_status,2.0,0.0035313605

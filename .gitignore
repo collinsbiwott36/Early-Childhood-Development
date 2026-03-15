@@ -1,19 +1,19 @@
-__pycache__/
-.ipynb_checkpoints/
-.venv/
+# Create .gitignore
+cat > .gitignore << 'EOF'
 venv/
+__pycache__/
 .env
-.DS_Store
-
-# Large assets (keep out of git)
+*.log
+logs/*
+!logs/.gitkeep
 data/raw/*
 data/interim/*
 data/processed/*
-data/outputs/*
-models/*
-reports/figures/*
-reports/tables/*
-reports/tuning/*
-
-# Logs
-logs/*
+!data/outputs/.gitkeep
+models/*.pkl
+!models/.gitkeep
+geo/*
+!geo/.gitkeep
+notebooks/*.ipynb
+.DS_Store
+EOF

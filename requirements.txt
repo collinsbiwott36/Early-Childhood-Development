@@ -1,3 +1,5 @@
+# Save your requirements.txt
+cat > requirements.txt << 'EOF'
 # Core Data & Science
 pandas==2.0.3
 seaborn==0.12.2
@@ -41,3 +43,4 @@ python-dotenv==1.0.0
 # Testing
 pytest==7.4.3
 reportlab>=4.0.0
+EOF
